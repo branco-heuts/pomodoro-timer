@@ -35,7 +35,7 @@ def resource_path(relative_path):
     return path.join(base_path, relative_path)
 
 
-res_path = resource_path("./static/")
+res_path = resource_path("static/")
 
 PICTURES = [
     res_path + "tomato5.png",
@@ -44,7 +44,7 @@ PICTURES = [
     res_path + "tomato3.png",
     res_path + "tomato4.png"
 ]
-SOUND = res_path + "259704__mattskydoodle__pop-human-mouth-effect.mp3"
+SOUND = res_path + "sound_effect.mp3"
 
 
 class App(Tk):
